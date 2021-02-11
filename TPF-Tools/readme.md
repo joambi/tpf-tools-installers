@@ -23,15 +23,10 @@ Installers:
 -------------------------------------------------------------------------------------
 The installed tools: (all are free)
 
-- Amphetamine --->kep your mac awake!
 - Ardour6 --> free super Digital Audio Workstation (DAW)
-- Brackets --> a better text-editor
-- Jadeo --> Video for Ardour6
 - TPF-Tools:
 - ardourtemplates --> Ardour6 sessions
 - audio-connections --> jmess xml files
-- camerea-01.command --> for open the ultragid video
-- camerea-01.command --> for open the ultragid video
 - GNU License.txt
 - load_audio.xml.command --> for reload your jmess xml audio-congiguration
 - pictures ---> tpf.jpg
