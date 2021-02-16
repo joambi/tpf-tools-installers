@@ -1,1 +1,17 @@
+installer tpf-tool-intermediate
 
+The <tpf-tool-intermediate> corresponds to the previous basic idea of TPF tools for eLearning the <tpf-tool-basic>. 
+Intermediate stands for modularly structured application possibilities for eLearning and Performances. 
+(simple to quite complex settings) Audio and video are independent of each other. 
+Ultragrid can, but does not have to be used.
+
+Content:
+
+- tpf-party
+- tpf-client
+- tpf-runner
+- tpf-settings
+- load/save_audio
+- ardour-templates
+- tpf-video 
+- tpf-uninstaller
