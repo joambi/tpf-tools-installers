@@ -40,6 +40,7 @@ Folders:
 - tpf-uninstallers
 	- uninstaller-JackOSX.command
 	- uninstaller-tpf-tool-intermediate.command
+	- 
 ========================================
 
 Start the tpf-tools-intermediate:
