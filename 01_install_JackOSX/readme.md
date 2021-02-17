@@ -3,6 +3,7 @@ This is the Jack Audio Kit OSX 10.14+ TPF-TOOLS-Installer v2.0
 -----------------------------------------------------------
 
 This current version installs all necessary Jackosx components to use the TPF-TOOLS.   
+download: https://github.com/joambi/tpf-tools-installers/releases/tag/tpf-JackOSX-installer
 
 -----------------------------------------------------------                  
 1. JackOSX.0.92_b3 /Applications/Jack
