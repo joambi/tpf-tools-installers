@@ -53,7 +53,7 @@ After the installation process you can start the tpf-tools-intermediate base ses
 
 ========================================
 
-Abaut Ardour 6.5.app
+Abaut Ardour 6.6.app
 ---------------------------
 please got to the Ardour Web-site: 
 https://ardour.org/
