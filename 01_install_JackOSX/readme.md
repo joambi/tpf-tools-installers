@@ -1,5 +1,5 @@
 -----------------------------------------------------------
-This is the Jack Audio Kit OSX 10.14+ TPF-TOOLS-Installer v2.0
+This is the Jack Audio Kit OSX 10.14+ 
 -----------------------------------------------------------
 
 This current version installs all necessary Jackosx components to use the TPF-TOOLS.   
