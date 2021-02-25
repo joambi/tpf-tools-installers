@@ -1,5 +1,7 @@
-tpf-party
-==========
+The TPF-Basic
+=============
+
+The TPF-Basic Bundle corresponds to the TPF-Party Tool.
 
 Download --> https://github.com/joambi/tpf-tools-installers/releases/tag/tpf-basic-v.1.1-beta2
 
