@@ -1,7 +1,7 @@
 tpf-party
 ==========
 
-info: https://tpf-elearning.postach.io/page/02-tpf-tool-basic
+Download --> https://github.com/joambi/tpf-tools-installers/releases/tag/tpf-basic-v.1.1-beta2
 
 About
 -----
