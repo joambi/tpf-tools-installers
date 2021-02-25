@@ -1,109 +1,89 @@
-tpf-tool-intermediate
-===============
+# tpf-tool-intermediate
+
 
 This is the intermediate equipment of the TPF-TOOLS  v.1.1b  is compatible with 10.14+ macOS 10.15.7 "Catalina"  
 [macOS "big sur" only Intel!]
 
-Important:
--------------
+# Important:
 Make sure that you have installed JackOSX! Take the  'TPF tool JackOSX Installer.command' to do this.
 After the JackOSX installation you have to restart your Macintosh. If everything went well, you should now create an aggregate. How to do this is described here: https://support.apple.com/en-us/HT202000.
 
----
-installer tpf-tool-intermediate 
+# installer tpf-tool-intermediate 
 The 'tpf-tool-intermediate' corresponds to the previous basic idea of TPF tools for eLearning the 'tpf-tool-basic'. 
 Intermediate stands for modularly structured application possibilities for eLearning and Performances (simple to quite complex settings). 
 Audio and video are independent of each other. Ultragrid can, but does not have to be used.
 
-Content TPF-TOOL-INTERMEDIATE:
-----------
- 
+# Content TPF-TOOL-INTERMEDIATE:
+
+# Applications: 
 - tpf-party.app   (v1.1-beta2)
 - tpf-client.app  (v1.1-beta1)
 - Ardour6.5.app
 - uv-qt.app (Ultragrid 1.6+)
+# Scripts:
 - tpf-runner.command
 - tpf-save-audio.command
 - tpf-load-audio.command
-Folders:
-- tpf-settings  
+# Folders:
+	- tpf-settings  
 	- tpf-basic.txt
-- tpf-audio-connections  
+	- tpf-audio-connections  
 	- tpf-basic.xml 
-- ardour-templates 
-	-  tpf-basic.ardour 
-- tpf-video  
+	- ardour-templates 
+	- tpf-basic.ardour 
+	- tpf-video  
 	- video-runner-camera01.command
 	- video-runner-camera02.command
 	- video-selftest-camera01.command
 	- video-selftest-camera02.command
-- tpf-uninstallers
+	- tpf-uninstallers
 	- uninstaller-JackOSX.command
 	- uninstaller-tpf-tool-intermediate.command
-	- 
-========================================
 
-Start the tpf-tools-intermediate:
-----
+# Start the tpf-tools-intermediate:
+
+# Download: https://github.com/joambi/tpf-tools-installers/releases/tag/v.1.1b
 
 After the installation process you can start the tpf-tools-intermediate base session.
-
-1. double click on the file "04_tpf-tool_runner.command".
+1. double click on the file "tpf-runner.command".
 2. follow the instructions of the tpf-runner.
 
-========================================
 
-Abaut Ardour 6.6.app
----------------------------
+# About Ardour 6.6.app
 please got to the Ardour Web-site: 
 https://ardour.org/
 
-========================================
-
-About uv-at.app
----------------------
+# About uv-at.app
 please got to the Ultragrid Web-site: 
 http://www.ultragrid.cz/
 
-========================================
-
-About TPF-Client
------------------------
-
+# About TPF-Client
 tpf-client is a low-latency audio transmission software based
 on the jacktrip protocol and built in Pure Data.
-
 It tries to overcome some limitations that are often encountered
 when using the traditional jacktrip commandline utility:
-
  * None of the endpoints are required to have a public IP address.
    All clients can be behind a firewall.
-
  * The tpf-client reduces complexity when configuring a session
    with many endpoints.
-
 The client registers itself to a tpf-server which keeps track
 of the connected clients. Thus the clients learn about the other
 clients and establish a jacktrip audio connection to their
 peers either by routing the packets through the tpf-server or
 directly to the peer by employing a technique called UDP hole
 punching (https://en.wikipedia.org/wiki/UDP_hole_punching).
-
 You can download the client from:
-
   https://gitlab.zhdk.ch/TPF/tpf-client
 
 The client is pre-configured to connect to a tpf-server
 running on telematic.zhdk.ch (TCP-Port 3025) which is supposed
 to be running anytime in the area of Zurich, Switzerland. The
 tpf-server software can be found here:
-
   https://gitlab.zhdk.ch/TPF/tpf-server
 
 Depending on the locations of the endpoints it is advised to
 run a server closer to one of the endpoints in order to
 keep transmission latency low.
-
 
 Prerequisites
 -------------
