@@ -83,12 +83,13 @@ Install the tpf-tools-advanced:
 4. right-click the 'install-tpf-tools-advanced.command'
 5. enter your admin-PW
 6. follow the installer instructions.
+
 VIDEO Installer
 
 Detailed installation and application information can be found on this website: https:/tpf-tools.postach.io/
 
 ---
-Sources:
+# Sources:
 
 1. JackOSX.0.92_b3  to /Applications/Jack  --> https://ccrma.stanford.edu/software/jacktrip/osx/JackOSX.0.92_b3.pkg
 2. JMess to /usr/local/bin --> https://github.com/jacktrip/jmess-jack
