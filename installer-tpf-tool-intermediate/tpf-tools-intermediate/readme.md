@@ -1,7 +1,7 @@
 # tpf-tool-intermediate
 
 
-This is the intermediate equipment of the TPF-TOOLS  v.1.1b  is compatible with 10.14+ macOS 10.15.7 "Catalina"  
+This is the intermediate equipment of the TPF-TOOLS  v.1.1beta-5  is compatible with 10.14+ macOS 10.15.7 "Catalina"  
 [macOS "big sur" only Intel!]
 
 # Important:
@@ -16,9 +16,9 @@ Audio and video are independent of each other. Ultragrid can, but does not have 
 # Content TPF-TOOL-INTERMEDIATE:
 
 # Applications: 
-- tpf-party.app   (v1.1-beta2)
-- tpf-client.app  (v1.1-beta1)
-- Ardour6.5.app
+- tpf-party.app   (v1.1-beta4)
+- tpf-client.app  (v1.1-beta5)
+- Ardour6.6.app
 - uv-qt.app (Ultragrid 1.6+)
 # Scripts:
 - tpf-runner.command

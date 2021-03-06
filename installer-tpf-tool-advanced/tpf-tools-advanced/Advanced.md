@@ -33,9 +33,9 @@ Applications:
 ---
 
 
-- tpf-party.app   (v1.1-beta2)	
+- tpf-party.app   (v1.1-beta4)	
 
-- tpf-client.app  (v1.1-beta1)
+- tpf-client.app  (v1.1-beta5)
 
 - Ardour6.6.app	
 
