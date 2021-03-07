@@ -16,9 +16,9 @@ Audio and video are independent of each other. Ultragrid can, but does not have 
 # Content TPF-TOOL-INTERMEDIATE:
 
 # Applications: 
-- tpf-party.app   (v1.1-beta2)
-- tpf-client.app  (v1.1-beta1)
-- Ardour6.5.app
+- tpf-party.app   (v1.1-beta4)
+- tpf-client.app  (v1.1-beta5)
+- Ardour6.6.app
 - uv-qt.app (Ultragrid 1.6+)
 # Scripts:
 - tpf-runner.command
