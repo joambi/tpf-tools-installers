@@ -10,6 +10,7 @@ Take the  'TPF tool JackOSX Installer.command' to do this.
 If not, go to download install_JackOSX
 
 After the JackOSX installation, you have to restart your Macintosh. If everything went well, you should now create an aggregate. How to do this is described here:
+
 https://support.apple.com/en-us/HT202000.
 ---
 
@@ -37,8 +38,8 @@ The Installer installs the following components:
 
 Applications:
 ---
-- tpf-party.app   (v1.1-beta2)	
-- tpf-client.app  (v1.1-beta1)
+- tpf-party.app   (v1.1-beta4)	
+- tpf-client.app  (v1.1-beta5)
 - Ardour6.5.app	
 - uv-qt.app (Ultragrid 1.6+)
 
@@ -80,19 +81,28 @@ Audio/Plug-Ins:
 VIDEO Installer
 
 Detailed installation and application information can be found on this website: 
+
 https:/tpf-tools.postach.io/
 ---
 
 Sources:
 ---
-JackOSX.0.92_b3  to /Applications/Jack  --> https://ccrma.stanford.edu/software/jacktrip/osx/JackOSX.0.92_b3.pkg
-JMess to /usr/local/bin --> https://github.com/jacktrip/jmess-jack
-Ardour.app --> https://ardour.org
-Ultragrid --> http://www.ultragrid.cz
-TPF-TOOLS --> https://gitlab.zhdk.ch/TPF
-IEMPluginSuite_v1.11.1 --> https://plugins.iem.at/
-dearVR_AMBI_MICRO.pkg --> https://www.dearvr.com/products/ambi-micro
-ICST_AmbiPlugins_2.1.0_osx.pkg --> https://bitbucket.org/christian_schweizer/icst-ambisonics-plugins/downloads/
+
+- JackOSX.0.92_b3  to /Applications/Jack  --> https://ccrma.stanford.edu/software/jacktrip/osx/JackOSX.0.92_b3.pkg
+
+- JMess to /usr/local/bin --> https://github.com/jacktrip/jmess-jack
+
+- Ardour.app --> https://ardour.org
+
+- Ultragrid --> http://www.ultragrid.cz
+
+- TPF-TOOLS --> https://gitlab.zhdk.ch/TPF
+
+- EMPluginSuite_v1.11.1 --> https://plugins.iem.at/
+
+- dearVR_AMBI_MICRO.pkg --> https://www.dearvr.com/products/ambi-micro
+
+- ICST_AmbiPlugins_2.1.0_osx.pkg --> https://bitbucket.org/christian_schweizer/icst-ambisonics-plugins/downloads/
 
 ---
 License: GPL 3.0
