@@ -102,7 +102,7 @@ sleep 4
 echo -e "\033[1;32m then close/quite the tpf-client manualy! \033[0m"
 sleep 2
 echo -e "\033[1;32m Save your TPF-Session for Ardour6! \033[0m"
-echo -e "\033[1;32m After that you can close Ardour6.5 manually! \033[0m"
+echo -e "\033[1;32m After that you can close Ardour6.6.app manually! \033[0m"
 sleep 2
 echo "Goodbye"
 sleep 2
