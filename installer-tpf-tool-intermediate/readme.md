@@ -1,101 +1,135 @@
-# tpf-tool-intermediate
+tpf-tool-intermediate
+---
 
+This is the intermediate equipment of the TPF-TOOLS  v.1.1b  is compatible with 10.14+  
+macOS "big sur" only Intel!
 
-This is the intermediate equipment of the TPF-TOOLS  v.1.1b  is compatible with 10.14+ macOS 10.15.7 "Catalina"  
-[macOS "big sur" only Intel!]
-
-# Important:
+Important:
+-------------
 Make sure that you have installed JackOSX! Take the  'TPF tool JackOSX Installer.command' to do this.
-After the JackOSX installation you have to restart your Macintosh. If everything went well, you should now create an aggregate. How to do this is described here: https://support.apple.com/en-us/HT202000.
+After the JackOSX installation you have to restart your Macintosh. If everything went well, you should now create an aggregate. 
 
-# installer tpf-tool-intermediate 
-The 'tpf-tool-intermediate' corresponds to the previous basic idea of TPF tools for eLearning the 'tpf-tool-basic'. 
-Intermediate stands for modularly structured application possibilities for eLearning and Performances (simple to quite complex settings). 
+How to do this is described here: https://support.apple.com/en-us/HT202000.
+
+---
+installer tpf-tool-intermediate 
+The 'tpf-tool-intermediate' corresponds to the previous basic idea of tpf-tools for eLearning the 'tpf-tool-basic'. 
+Intermediate stands for modularly structured application possibilities for Distant Teaching and Learning and Performances (simple to quite complex settings). 
 Audio and video are independent of each other. Ultragrid can, but does not have to be used.
 
-# Content TPF-TOOL-INTERMEDIATE:
-
-# Applications: 
+Content tpf-tool-intermediate :
+----------
 - tpf-party.app   (v1.1-beta4)
 - tpf-client.app  (v1.1-beta5)
 - Ardour6.6.app
 - uv-qt.app (Ultragrid 1.6+)
-# Scripts:
 - tpf-runner.command
 - tpf-save-audio.command
 - tpf-load-audio.command
-# Folders:
-	- tpf-settings  
-	- tpf-basic.txt
-	- tpf-audio-connections  
-	- tpf-basic.xml 
-	- ardour-templates 
-	- tpf-basic.ardour 
-	- tpf-video  
-	- video-runner-camera01.command
-	- video-runner-camera02.command
-	- video-selftest-camera01.command
-	- video-selftest-camera02.command
-	- tpf-uninstallers
-	- uninstaller-JackOSX.command
-	- uninstaller-tpf-tool-intermediate.command
 
-# Start the tpf-tools-intermediate:
+Folders:
+---
 
-# Download: https://github.com/joambi/tpf-tools-installers/releases/tag/v.1.1b
+tpf-settings:
+  
 
-After the installation process you can start the tpf-tools-intermediate base session.
-1. double click on the file "tpf-runner.command".
+- tpf-basic.txt
+- tpf-default.txt
+- tpf-intermediate.txt
+
+tpf-audio-connections:
+- audio-basic.xml 
+- audio-default.xml
+- audio-intermediate.xml
+
+ardour-templates:
+- tpf-intermediate-basic.ardour 
+- tpf-intermediate-default.ardour
+- tpf-intermediate-intermediate.ardour
+
+tpf-video: 
+- video-runner-camera01.command
+- video-runner-camera02.command
+- video-selftest-camera01.command
+- video-selftest-camera02.command
+
+tpf-uninstallers:
+
+- uninstaller-JackOSX.command
+- uninstaller-tpf-tool-intermediate.command
+
+
+
+Start the tpf-tools-intermediate:
+----
+
+After the installation process you can start the tpf-tools-intermediate basic session.
+
+1. double click on the file "04_tpf-tool_runner.command".
 2. follow the instructions of the tpf-runner.
 
 
-# About Ardour 6.6.app
-please got to the Ardour Web-site: 
+About Ardour 6.6.app
+---------------------------
+please got to the Ardour website: 
 https://ardour.org/
 
-# About uv-at.app
-please got to the Ultragrid Web-site: 
+
+About uv-at.app
+---------------------
+please got to the Ultragrid website: 
 http://www.ultragrid.cz/
 
-# About TPF-Client
+
+
+About TPF-Client
+-----------------------
+
 tpf-client is a low-latency audio transmission software based
 on the jacktrip protocol and built in Pure Data.
+
 It tries to overcome some limitations that are often encountered
 when using the traditional jacktrip commandline utility:
+
  * None of the endpoints are required to have a public IP address.
-   All clients can be behind a firewall.
+   All clients can be behind a firewall.
  * The tpf-client reduces complexity when configuring a session
-   with many endpoints.
+   with many endpoints.
+
 The client registers itself to a tpf-server which keeps track
 of the connected clients. Thus the clients learn about the other
 clients and establish a jacktrip audio connection to their
 peers either by routing the packets through the tpf-server or
 directly to the peer by employing a technique called UDP hole
 punching (https://en.wikipedia.org/wiki/UDP_hole_punching).
+
 You can download the client from:
-  https://gitlab.zhdk.ch/TPF/tpf-client
+
+  https://gitlab.zhdk.ch/TPF/tpf-client
 
 The client is pre-configured to connect to a tpf-server
 running on telematic.zhdk.ch (TCP-Port 3025) which is supposed
 to be running anytime in the area of Zurich, Switzerland. The
 tpf-server software can be found here:
-  https://gitlab.zhdk.ch/TPF/tpf-server
+
+  https://gitlab.zhdk.ch/TPF/tpf-server
 
 Depending on the locations of the endpoints it is advised to
 run a server closer to one of the endpoints in order to
 keep transmission latency low.
+
 
 Prerequisites
 -------------
 
 Make sure to get the latest Pure Data from:
 
-  https://puredata.info/downloads/
+  https://puredata.info/downloads/
 
 You need the following externals to run tpf-client
-  * iemnet
-  * osc
-  * slip
+  * iemnet
+  * osc
+  * slip
 
 You can install externals through the Pd menu:
 'Help' -> 'Find Externals'
@@ -109,8 +143,8 @@ you run Pd with jack as audio backend, so that you can send audio from
 and to the tpf-client to other software. When running from the command-
 line, the recommended parameters are:
 
-  pd -rt -jack -inchannels 8 -outchannels 65 -nojackconnect \
-     -jackname tpf-client -open tpf-client/tpf-client.pd
+  pd -rt -jack -inchannels 8 -outchannels 65 -nojackconnect \
+     -jackname tpf-client -open tpf-client/tpf-client.pd
 
 Before connecting to the server, make sure to set a name in <Location>
 and all parameters. The parameters sr (samplerate) and bs (blocksize)
@@ -145,13 +179,13 @@ Ready-to-use macOS app
 If your computer runs macOS, you may download a self-contained
 application bundle from:
 
-  https://gitlab.zhdk.ch/TPF/tpf-client/-/releases/
+  https://gitlab.zhdk.ch/TPF/tpf-client/-/releases/
 
 
 Bugs
 ----
 
-  * tpf-client crashes Pd when receiving a stream with 3 channels
+  * tpf-client crashes Pd when receiving a stream with 3 channels
 
 For any bug, issue, or suggestion, please open an issue [here](https://github.com/reduzent/tpf-client/issues).
 
@@ -159,12 +193,11 @@ For any bug, issue, or suggestion, please open an issue [here](https://github.co
 Authors
 -------
 
-  * Roman Haefeli <roman.haefeli@zhdk.ch>
-  * Johannes Schütt <johannes.schuett@zhdk.ch>
-
+  * Roman Haefeli <roman.haefeli@zhdk.ch>
+  * Johannes Schütt <johannes.schuett@zhdk.ch>
+  * TPF-Team @ZHdK
 
 License
--------
+----
 
-  GPL 3.0 (see LICENSE.txt)
-
+  GPL 3.0 (see LICENSE.txt)
