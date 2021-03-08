@@ -1,0 +1,802 @@
+<jmess>
+  <connection>
+    <output>system:capture_1</output>
+    <input>ardour:Stage/Mic-1/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_1</output>
+    <input>ardour:to_tpf-client-1/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_2</output>
+    <input>ardour:Stage/Mic-2/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_2</output>
+    <input>ardour:to_tpf-client-2/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_3</output>
+    <input>ardour:Stage/Mic-3/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_3</output>
+    <input>ardour:to_tpf-client-3/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_4</output>
+    <input>ardour:Stage/Mic-4/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_4</output>
+    <input>ardour:to_tpf-client-4/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_5</output>
+    <input>ardour:Stage/Mic-5/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_5</output>
+    <input>ardour:to_tpf-client-5/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_6</output>
+    <input>ardour:Stage/Mic-6/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_6</output>
+    <input>ardour:to_tpf-client-6/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_7</output>
+    <input>ardour:Stage/Mic -7/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_7</output>
+    <input>ardour:to_tpf-client-7/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_8</output>
+    <input>ardour:Stage/Mic-8/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>system:capture_8</output>
+    <input>ardour:to_tpf-client-8/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Click/audio_out 1</output>
+    <input>system:playback_1</input>
+  </connection>
+  <connection>
+    <output>ardour:Click/audio_out 2</output>
+    <input>system:playback_2</input>
+  </connection>
+  <connection>
+    <output>ardour:Master/audio_out 1</output>
+    <input>system:playback_1</input>
+  </connection>
+  <connection>
+    <output>ardour:Master/audio_out 2</output>
+    <input>system:playback_2</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-1/audio_out 1</output>
+    <input>tpf-client:input0</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-1/audio_out 2</output>
+    <input>tpf-client:input0</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-2/audio_out 1</output>
+    <input>tpf-client:input1</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-2/audio_out 2</output>
+    <input>tpf-client:input1</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-3/audio_out 1</output>
+    <input>tpf-client:input2</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-3/audio_out 2</output>
+    <input>tpf-client:input2</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-4/audio_out 1</output>
+    <input>tpf-client:input3</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-4/audio_out 2</output>
+    <input>tpf-client:input3</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-5/audio_out 1</output>
+    <input>tpf-client:input4</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-5/audio_out 2</output>
+    <input>tpf-client:input4</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-6/audio_out 1</output>
+    <input>tpf-client:input5</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-6/audio_out 2</output>
+    <input>tpf-client:input5</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-7/audio_out 1</output>
+    <input>tpf-client:input6</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-7/audio_out 2</output>
+    <input>tpf-client:input6</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-8/audio_out 1</output>
+    <input>tpf-client:input7</input>
+  </connection>
+  <connection>
+    <output>ardour:to_tpf-client-8/audio_out 2</output>
+    <input>tpf-client:input7</input>
+  </connection>
+  <connection>
+    <output>ardour:A-0/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:A-0/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:A-1/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:A-1/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:A-2/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:A-2/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:A-3/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:A-3/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:A-4/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:A-4/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:A-5/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:A-5/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:A-6/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:A-6/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:A-7/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:A-7/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:B-8/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:B-8/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:B-9/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:B-9/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:B-10/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:B-10/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:B-11/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:B-11/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:B-12/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:B-12/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:B-13/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:B-13/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:B-14/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:B-14/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:B-15/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:B-15/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:C-16/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:C-16/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:C-17/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:C-17/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:C-18/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:C-18/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:C-19/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:C-19/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:C-20/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:C-20/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:C-21/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:C-21/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:C-22/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:C-22/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:C-23/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:C-23/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:D-24/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:D-24/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:D-25/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:D-25/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:D-26/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:D-26/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:D-27/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:D-27/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:D-28/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:D-28/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:D-29/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:D-29/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:D-30/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:D-30/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:D-31/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:D-31/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:E-32/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:E-32/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:E-33/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:E-33/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:E-34/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:E-34/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:E-35/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:E-35/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:E-36/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:E-36/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:E-37/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:E-37/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:E-38/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:E-38/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:E-39/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:E-39/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:F-40/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:F-40/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:F-41/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:F-41/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:F-42/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:F-42/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:F-43/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:F-43/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:F-44/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:F-44/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:F-45/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:F-45/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:F-46/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:F-46/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:F-47/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:F-47/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:G-48/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:G-48/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:G-49/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:G-49/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:G-50/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:G-50/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:G-51/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:G-51/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:G-52/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:G-52/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:G-53/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:G-53/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:G-54/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:G-54/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:G-55/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:G-55/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:H-56/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:H-56/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:H-57/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:H-57/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:H-58/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:H-58/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:H-59/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:H-59/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:H-60/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:H-60/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:H-61/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:H-61/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:H-62/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:H-62/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:H-63/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:H-63/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 1/audio_out 1</output>
+    <input>system:playback_3</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 1/audio_out 2</output>
+    <input>system:playback_4</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 2/audio_out 1</output>
+    <input>system:playback_5</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 2/audio_out 2</output>
+    <input>system:playback_6</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 3/audio_out 1</output>
+    <input>system:playback_7</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 3/audio_out 2</output>
+    <input>system:playback_8</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 4/audio_out 1</output>
+    <input>system:playback_9</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 4/audio_out 2</output>
+    <input>system:playback_10</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 5/audio_out 1</output>
+    <input>system:playback_11</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 5/audio_out 2</output>
+    <input>system:playback_12</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 6/audio_out 1</output>
+    <input>system:playback_13</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 6/audio_out 2</output>
+    <input>system:playback_14</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 7/audio_out 1</output>
+    <input>system:playback_15</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 7/audio_out 2</output>
+    <input>system:playback_16</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 8/audio_out 1</output>
+    <input>system:playback_17</input>
+  </connection>
+  <connection>
+    <output>ardour:Monitore 8/audio_out 2</output>
+    <input>system:playback_18</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Master/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Monitore 1/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Monitore 2/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Monitore 3/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Monitore 4/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Monitore 5/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Monitore 6/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Monitore 7/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 1</output>
+    <input>ardour:Monitore 8/audio_in 1</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Master/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Monitore 1/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Monitore 2/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Monitore 3/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Monitore 4/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Monitore 5/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Monitore 6/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Monitore 7/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:Reverb/audio_out 2</output>
+    <input>ardour:Monitore 8/audio_in 2</input>
+  </connection>
+  <connection>
+    <output>ardour:auditioner/audio_out 1</output>
+    <input>system:playback_1</input>
+  </connection>
+  <connection>
+    <output>ardour:auditioner/audio_out 2</output>
+    <input>system:playback_2</input>
+  </connection>
+</jmess>
