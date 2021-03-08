@@ -1,6 +1,6 @@
 This is the advanced equipment of the TPF-TOOLS_v1.1b for macOS 10.14+
 --
-[macOS "big sur" only Intel!]
+macOS "big sur" only Intel!
 
 
 Important:
@@ -12,7 +12,7 @@ If not, go to download install_JackOSX
 After the JackOSX installation, you have to restart your Macintosh. If everything went well, you should now create an aggregate. How to do this is described here:
 
 https://support.apple.com/en-us/HT202000.
----
+
 
 installer tpf-tool-advanced
 ----
@@ -21,17 +21,27 @@ advanced stands for modularly structured application possibilities for eLearning
 The most important addition is the possibility to create a 3D audio mix for headphones (binaural) as well as for speakers (ambisonics).
 Audio and video are independent of each other. Ultragrid can but does not have to be used.
 
-Download: 'tpf-tools-advanced' @ GitHub: https://github.com/joambi/
+Download:
+---
+tpf-tools-advanced go to GitHub: 
+https://github.com/joambi/
+
 ---
 
 Install the tpf-tools-advanced:
 ---
 1.download the DMG
+
 2.open the DMG
+
 3.open the folder ' installer-tpf-tools-advanced'
+
 4.right-click the 'install-tpf-tools-advanced.command'
+
 5.enter your admin-PW
+
 6.follow the installer instructions.
+
 
 The Installer installs the following components:
 ---
@@ -40,7 +50,7 @@ Applications:
 ---
 - tpf-party.app   (v1.1-beta4)	
 - tpf-client.app  (v1.1-beta5)
-- Ardour6.5.app	
+- Ardour6.6.app	
 - uv-qt.app (Ultragrid 1.6+)
 
 Scripts:
@@ -60,7 +70,7 @@ Folders:
 
 tpf-video-scripts:
 ---
-	-video-runner-camera01.command 
+	- video-runner-camera01.command 
 	- video-runner-camera02.command
 	- video-selftest-camera01.command
 	- video-selftest-camera02.command	
@@ -78,12 +88,11 @@ Audio/Plug-Ins:
 	- dearVR_AMBI_MICRO(free)  --> binaural
 	- IEMPluginSuite_v1.11.1 --> reverb
    
-VIDEO Installer
-
-Detailed installation and application information can be found on this website: 
+Info:
+---
 
 https:/tpf-tools.postach.io/
----
+
 
 Sources:
 ---
