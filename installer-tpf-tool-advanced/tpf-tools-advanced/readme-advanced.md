@@ -87,12 +87,7 @@ Audio/Plug-Ins:
 	- ICST Ambisonics Plugins   --> ambisonics
 	- dearVR_AMBI_MICRO(free)  --> binaural
 	- IEMPluginSuite_v1.11.1 --> reverb
-   
-Info:
----
-
-https:/tpf-tools.postach.io/
-
+  
 
 Sources:
 ---
@@ -111,7 +106,14 @@ Sources:
 
 - dearVR_AMBI_MICRO.pkg --> https://www.dearvr.com/products/ambi-micro
 
+- Install Sennheiser AMBEO VR Mic A-B Converter 1.2.3.pkg --> https://de-ch.sennheiser.com/ambeo-abconverter
+
 - ICST_AmbiPlugins_2.1.0_osx.pkg --> https://bitbucket.org/christian_schweizer/icst-ambisonics-plugins/downloads/
+
+More Info:
+---
+
+https:/tpf-tools.postach.io/
 
 ---
 License: GPL 3.0
