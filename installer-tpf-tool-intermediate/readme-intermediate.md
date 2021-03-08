@@ -7,7 +7,7 @@ macOS "big sur" only Intel!
 Important:
 -------------
 Make sure that you have installed JackOSX! Take the  'TPF tool JackOSX Installer.command' to do this.
-After the JackOSX installation you have to restart your Macintosh. If everything went well, you should now create an aggregate. 
+After the JackOSX installation, you have to restart your Macintosh. If everything went well, you should now create an aggregate. 
 
 How to do this is described here: https://support.apple.com/en-us/HT202000.
 
@@ -15,7 +15,7 @@ How to do this is described here: https://support.apple.com/en-us/HT202000.
 installer tpf-tool-intermediate 
 The 'tpf-tool-intermediate' corresponds to the previous basic idea of tpf-tools for eLearning the 'tpf-tool-basic'. 
 Intermediate stands for modularly structured application possibilities for Distant Teaching and Learning and Performances (simple to quite complex settings). 
-Audio and video are independent of each other. Ultragrid can, but does not have to be used.
+Audio and video are independent of each other. Ultragrid can but does not have to be used.
 
 Content tpf-tool-intermediate :
 ----------
@@ -63,7 +63,7 @@ tpf-uninstallers:
 Start the tpf-tools-intermediate:
 ----
 
-After the installation process you can start the tpf-tools-intermediate basic session.
+After the installation process, you can start the tpf-tools-intermediate basic session.
 
 1. double click on the file "04_tpf-tool_runner.command".
 2. follow the instructions of the tpf-runner.
@@ -71,13 +71,13 @@ After the installation process you can start the tpf-tools-intermediate basic se
 
 About Ardour 6.6.app
 ---------------------------
-please got to the Ardour website: 
+please go to the Ardour website: 
 https://ardour.org/
 
 
 About uv-at.app
 ---------------------
-please got to the Ultragrid website: 
+please go to the Ultragrid website: 
 http://www.ultragrid.cz/
 
 
@@ -85,8 +85,8 @@ http://www.ultragrid.cz/
 About TPF-Client
 -----------------------
 
-tpf-client is a low-latency audio transmission software based
-on the jacktrip protocol and built in Pure Data.
+tpf-client is a low-latency audio transmission software-based
+on the jacktrip protocol and built-in Pure Data.
 
 It tries to overcome some limitations that are often encountered
 when using the traditional jacktrip commandline utility:
@@ -143,22 +143,22 @@ you run Pd with jack as audio backend, so that you can send audio from
 and to the tpf-client to other software. When running from the command-
 line, the recommended parameters are:
 
-  pd -rt -jack -inchannels 8 -outchannels 65 -nojackconnect \
+  pd -rt -jack -in channels 8 -out channels 65 -nojackconnect \
      -jackname tpf-client -open tpf-client/tpf-client.pd
 
 Before connecting to the server, make sure to set a name in <Location>
-and all parameters. The parameters sr (samplerate) and bs (blocksize)
+and all parameters. The parameters sr (sample rate) and bs (block size)
 must be the same for all clients. The first connecting client defines
 the values of those parameters for the session. After configuring those
 parameters the client can connect to the server by clicking the top
-left button. Blue indicates connection is established. Red indicates that
-some error occured. Check the message for the reason. Reasons for connection
-failure include samplerate or name conflict (configured name is already in
+left button. Blue indicates the connection is established. Red indicates that
+some errors occurred. Check the message for the reason. Reasons for connection
+failure include sample rate or name conflict (the configured name is already in
 use by someone else).
 
 Once connected, other endpoints appear in one of the 8 rows. In order to
-establish audio transmission, either of one side needs to initiate the
-connection by clicking the black square in the left and the other side
+establish audio transmission, either one side needs to initiate the
+connection by clicking the black square on the left and the other side
 has to confirm. A flashing button indicates the other side is waiting
 for confirmation. Once the audio connection is established, the
 corresponding button turns blue and the numbered squares indicate the
