@@ -1,16 +1,37 @@
------------------------------------------------------------
 This is the Jack Audio Kit OSX 10.14+Installer_v2.0
------------------------------------------------------------
-The current version installs all the nessary jack Komponenten.              
+-----
+
+The current version installs all the necessary jack Komponenten.              
 -----------------------------------------------------------                  
 1. JackOSX.0.92_b3 /Applications/Jack --> info https://ccrma.stanford.edu/docs/common/JACK.html
 2. QJackCtrl.app  /Applications/Jack --> https://ccrma.stanford.edu/docs/common/JACK.html
 3. JMess /usr/local/bin --> https://github.com/jacktrip/jmess-jack
 
-------------------------------------------------
+
+**New:**
+---
+
+- updated 'readme.md'
+- solved the gatekeeper problem with 'jmess' in the installer.
+- implemented a test for jackdmp & jmess.
+- when you get this message the installation is correct!
+   For jmess:
+   JMess: A simple utility so save your jack-audio mess.
+   Copyright (C) 2007-2016 Juan-Pablo Caceres.
+   VERSION: 1.0.3
+
+   For jackdmp:
+   jackdmp 1.9.11
+   Copyright 2001-2005 Paul Davis and others.
+   Copyright 2004-2016 Grame.
+   jackdmp comes with ABSOLUTELY NO WARRANTY
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; see the file COPYING for details
+
 * JackPilot is no longer part of the tool!
 * It does not run on 64bit!
-So we remove fthis dead Application from Jack Folder!
+So we remove this dead Application from Jack Folder!
+
 --------------------------------------------------
 
 **Installation:**
@@ -25,14 +46,14 @@ So we remove fthis dead Application from Jack Folder!
  
 
 ------------------------------------------------
-**IMPORTEND:** for OSX
+IMPORTANT: for OSX
 
-please install a "Aggregate Device"!
+please install an "Aggregate Device"!
 
 info: https://support.apple.com/en-gb/HT202000
 
 -------------------------------------------------
-**SUPPORT: **
+SUPPORT: 
 No support for the moment.
 
 ------------------------------------------------
