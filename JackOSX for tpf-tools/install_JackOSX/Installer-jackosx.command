@@ -57,9 +57,11 @@ echo -e "\033[1;34m [Done] \033[0m"
 echo "-----------------------------------------------"
 echo -e "\033[1;32m [1/2]: We test now the installation: \033[0m"
 echo -e "\033[1;32m [1/2]: First Jackdmp \033[0m"
+sleep 4
 /usr/local/bin/jackdmp
 sleep 4
 echo -e "\033[1;32m [1/2]: Second Jmess \033[0m"
+sleep 4
 /usr/local/bin/jmess
 sleep 4
 
