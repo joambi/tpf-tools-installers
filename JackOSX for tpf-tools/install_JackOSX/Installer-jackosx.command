@@ -21,14 +21,15 @@ while true; do
 done
 sleep 2
 echo "install the JackOSX stuff!"
-cd ~/Desktop/Desktop/install_JackOSX
+cd ~/Desktop/install_JackOSX
 echo "-----------------------------------------------"
 sudo spctl --master-disable
 sleep 4
 echo -e "\033[1;32m [1/1]: Install Jmess to /usr/local/bin \033[0m"
-sudo chmod -R 777 ~/Desktop/install_JackOSX/jmess
 sleep 4
 sudo cp ~/Desktop/install_JackOSX/jmess /usr/local/bin
+sudo chmod 755 /usr/local/bin/jmess
+sleep 2
 echo -e "\033[1;32m [1/1] jmess is installed  --> [Done]  \033[0m"
 echo "-----------------------------------------------"
 echo -e "\033[1;32m [1/2]: Install JackOSX Folder in /Applications \033[0m"
@@ -37,7 +38,7 @@ sleep 2
 open ~/Desktop/install_JackOSX/JackOSX.0.92_b3.pkg
 echo -e "\033[1;32m Please follow the installer instructions! \033[0m"
 sleep 2
-echo -e " \032[1;31m Note: Do not click on Restart before the script has finished! \032[0m"
+echo -e " \033[1;31m Note: Do not click on Restart before the script has finished! \033[0m"
 function pause(){
    read -p "$*"
 }
@@ -47,11 +48,24 @@ echo -e "\033[1;32m [1/2]: Install JackOSX Folder in /Applications \033[0m"
 pause 'Press [Enter] key to continue...'
 echo "-----------------------------------------------"
 sleep 4
-echo -e " \032[1;32m Note: The JackPilot.app it dosent run on 64bit maschine! \032[0m"
-echo "-----------------------------------------------"
-
-rm -r ~/Desktop/install_JackOSX
 sudo spctl --master-enable
+echo -e " \033[1;32m Note: The JackPilot.app it dosent run on 64bit maschine! \033[0m"
+echo -e " \033[1;32m I remove this dead program now. \033[0m"
+rm -rif /Applications/Jack/JackPilot.app
+sleep 2
+echo -e "\033[1;34m [Done] \033[0m"
+echo "-----------------------------------------------"
+echo -e "\033[1;32m [1/2]: We test now the installation: \033[0m"
+echo -e "\033[1;32m [1/2]: First Jackdmp \033[0m"
+/usr/local/bin/jackdmp
+sleep 4
+echo -e "\033[1;32m [1/2]: Second Jmess \033[0m"
+/usr/local/bin/jmess
+sleep 4
+
+rm -rif ~/Desktop/install_JackOSX
+sleep 4
+hdiutil eject /Volumes/JackOSX\ for\ tpf-tools
 sleep 4
 echo -e "\033[1;32m [1/4] You can click restart now! --> [Done] \033[0m"
 sleep 2
